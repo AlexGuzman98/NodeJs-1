@@ -1,0 +1,5 @@
+function factor(n){}
+fuction factor (n){ 
+fuction factor(n){ if (n === 0 || n === 1){ return 1; }else{ return n * factor(n-1);}}
+function factor(n){ if (n === 0 || n === 1){ return 1; }else{ return n * factor(n-1);} }
+factor(5)
