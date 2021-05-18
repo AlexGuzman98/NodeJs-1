@@ -30,3 +30,12 @@ if(num < 0){
 }else{
     console.log('El numero es Positivo')
 }
+// Ejecicio 5
+const numeroUno = 144123
+const numeroDos = 23462
+if ((numeroUno === 0)||(numeroDos === 0)) {
+    console.log('El numero es 0 no dividible');
+} else {
+    const resultadoDivision = numeroUno/numeroDos;
+    console.log(resultadoDivision);
+}
