@@ -15,11 +15,11 @@ exports.FuncionDigitos = function(n){
 exports.Temp = function grados(num){
     if (num < 10){
         return 'Hace mucho frío'
-    } else if (num >= 10  && num <= 15){
+    } else if (num >= 10  || num <= 15){
         return 'Hace poco frío'
-    } else if (num >= 16  && num <= 24){
+    } else if (num >= 16  || num <= 24){
         return 'Hace una temperatura normal'
-    } else if (num >= 25  && num <= 30){
+    } else if (num >= 25  || num <= 30){
         return 'Hace poco calor'
     } else if (num > 30){
         return 'Hace mucho calor'
